@@ -12,12 +12,12 @@ public class Main {
 
         var alumno1 = new Alumno("Juana Serrano", "726369361", "juana_serrano721@gmail.com", 6.57, 2.19);
 
-        alumnoDAO.insertarAlumno(alumno1);
-        System.out.println("");
+//        alumnoDAO.insertarAlumno(alumno1);
+//        System.out.println("");
         alumnoDAO.listarTodo();
-        System.out.println("");
-        alumnoDAO.listarSuspensos();
-        System.out.println("");
-        alumnoDAO.estadisticas();
+//        System.out.println("");
+//        alumnoDAO.listarSuspensos();
+//        System.out.println("");
+//        alumnoDAO.estadisticas();
     }
 }
